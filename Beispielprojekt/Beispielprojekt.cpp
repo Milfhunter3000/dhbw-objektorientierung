@@ -26,9 +26,7 @@ public:
 		set_caption("Gosu Tutorial Game mit Git");
 
 		// Erzeuge Planeten
-		planets.push_back(Planet({ 200.0, 200.0 }, 0.1, "planet1.png"));
-		planets.push_back(Planet({ 600.0, 200.0 }, 0.1, "planet2.png"));
-		planets.push_back(Planet({ 400.0, 500.0 }, 0.1, "planet3.png"));
+		
 	}
 
 	// wird bis zu 60x pro Sekunde aufgerufen.
